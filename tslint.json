@@ -1,0 +1,10 @@
+{
+  "extends": "tslint:recommended",
+  "formatter": "json",
+  "rules": {
+    "quotemark": [true, "single"],
+    "no-console": [false],
+    "semicolon": [true, "never"],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }]
+  }
+}
